@@ -32,20 +32,25 @@ html, body {
 .band {
     width: 100%; 
     min-height: 20px; 
-    background-color: #000;
+    background-color: #111;
     background-position: center;
     background-repeat: none;
     background-size: cover;
+    color: #ccc;
 }
 .band-content {
     background: rgba(0,0,0,0.75);
-    color: #ccc;
     font-weight: 600;
 }
 .specicon {
-    height: 80px;
+    height: 65px;
+    margin-bottom: 10px;
 }
 .spectxt {
     max-width: 300px;
     margin: auto;
+    margin-bottom: 20px;
+}
+.contacticon {
+    height: 50px;
 }
