@@ -1,0 +1,51 @@
+* {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+html, body {
+    background: #eee;
+}
+.container.bg {
+    background: #f4f4f4;
+}
+.toplogo {
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.padding-block {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.smalltitle {
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn-primary { transition: 250ms;
+    background-color: #C42032 !important;
+    border: none !important;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus { transition: 250ms;
+    box-shadow: none !important;
+    opacity: 0.8;
+}
+.band {
+    width: 100%; 
+    min-height: 20px; 
+    background-color: #000;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+.band-content {
+    background: rgba(0,0,0,0.75);
+    color: #ccc;
+    font-weight: 600;
+}
+.specicon {
+    height: 80px;
+}
+.spectxt {
+    max-width: 300px;
+    margin: auto;
+}
